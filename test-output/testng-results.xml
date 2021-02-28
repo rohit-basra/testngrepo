@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+      <class name="testng.Pro002_SimpleTest">
+        <test-method status="PASS" signature="destory1()[pri:0, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="destory1" duration-ms="30" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory1 -->
+        <test-method status="PASS" signature="init()[pri:1, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="init" duration-ms="0" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="display01()[pri:2, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="display01" duration-ms="0" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display01 -->
+        <test-method status="PASS" signature="display02()[pri:3, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="display02" duration-ms="0" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display02 -->
+        <test-method status="PASS" signature="destory()[pri:4, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="destory" duration-ms="5" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+      </class> <!-- testng.Pro002_SimpleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
