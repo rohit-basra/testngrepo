@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="90" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+  <suite name="Default suite" duration-ms="51" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="90" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
-      <class name="testng.Pro002_SimpleTest">
-        <test-method status="PASS" signature="destory1()[pri:0, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="destory1" duration-ms="30" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+    <test name="Default test" duration-ms="51" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+      <class name="testng.Pro003_MoreAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="beforeSuite" is-config="true" duration-ms="20" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- destory1 -->
-        <test-method status="PASS" signature="init()[pri:1, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="init" duration-ms="0" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="display01()[pri:2, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="display01" duration-ms="0" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- display01 -->
-        <test-method status="PASS" signature="display02()[pri:3, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="display02" duration-ms="0" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- display02 -->
-        <test-method status="PASS" signature="destory()[pri:4, instance:testng.Pro002_SimpleTest@3ee0fea4]" name="destory" duration-ms="5" started-at="2021-02-28T20:09:14Z" finished-at="2021-02-28T20:09:14Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTest()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="myTest" duration-ms="5" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- destory -->
-      </class> <!-- testng.Pro002_SimpleTest -->
+        </test-method> <!-- myTest -->
+        <test-method status="PASS" signature="myTest1()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="myTest1" duration-ms="5" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTest1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="afterMethod" is-config="true" duration-ms="5" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.Pro003_MoreAnnotations@53f65459]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-02-28T22:23:02 EST" finished-at="2021-02-28T22:23:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng.Pro003_MoreAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
